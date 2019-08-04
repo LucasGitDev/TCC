@@ -7,12 +7,14 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".ListFragment"
     tools:showIn="@layout/fragment_list"
-    android:layout_gravity="bottom">
+    android:layout_gravity="bottom"
+    android:background="@color/secondaryLightColor">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerViewLista"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/secondaryLightColor">
 
     </android.support.v7.widget.RecyclerView>
 

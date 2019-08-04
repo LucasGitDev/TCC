@@ -7,6 +7,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -55,7 +56,7 @@ public class BuyFragment extends Fragment {
 
     public void populateRecyclerView() {
 
-        double a = 2.55;
+        double a = 222.55;
 
         ModeloItem modeloItem= new ModeloItem(1,"Detergente Ype", "Detegente", "", a, R.drawable.ypeneutro500ml);
         modeloItemArrayList.add(modeloItem);
@@ -67,6 +68,21 @@ public class BuyFragment extends Fragment {
 
 
         adapterFeed.notifyDataSetChanged();
+
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        Log.i("String", "Resume");
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        modeloItemArrayList.clear();
+        adapterFeed.notifyDataSetChanged();
+        Log.i("String", "Pause");
+    }
 }

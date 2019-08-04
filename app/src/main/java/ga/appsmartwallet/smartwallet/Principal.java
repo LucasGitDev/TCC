@@ -27,12 +27,15 @@ public class Principal extends AppCompatActivity {
 
         adapter.AddFragment(new BuyFragment(), "visão Geral");
         adapter.AddFragment(new ListFragment(), "Lista de Compras");
+        adapter.AddFragment(new ConfigFragment(), "Settings");
 
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
 
         tabLayout.getTabAt(0).setIcon(R.drawable.ic_wallet);
         tabLayout.getTabAt(1).setIcon(R.drawable.ic_playlist_add_check_black_24dp);
+        tabLayout.getTabAt(2).setIcon(R.drawable.ic_settings_black_24dp);
+
 
         //tirar sombra da barra
         ActionBar actionBar = getSupportActionBar();

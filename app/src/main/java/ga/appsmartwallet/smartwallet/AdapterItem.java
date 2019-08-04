@@ -89,4 +89,6 @@ public class AdapterItem extends RecyclerView.Adapter<AdapterItem.MyViewHolder> 
 
         }
     }
+
+
 }
