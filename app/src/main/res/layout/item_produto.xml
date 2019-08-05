@@ -3,115 +3,131 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@color/secondaryLightColor"
     android:orientation="vertical">
 
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <ImageView
-            android:id="@+id/imgProd"
-            android:layout_marginTop="17dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:layout_width="55dp"
-            android:layout_height="55dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/secondaryLightColor"
+        android:orientation="vertical">
 
         <RelativeLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_toRightOf="@id/imgProd">
+            android:background="@color/secondaryLightColor">
 
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imgProd"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginRight="5dp" />
 
-                <LinearLayout
-                    android:id="@+id/ll1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:minHeight="15dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/tvNomeProduto"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Nome Produto"
-                        android:textColor="#000000" />
-
-                    <TextView
-                        android:id="@+id/tvInfoSimples"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Info oooasdsohdoasdfnnnad \n sjdlfkjdlflskfdjlzskdjflsdvzdfv \n sdjfoasdjfoiajsd"
-                        android:textColor="#000000" />
-
-                </LinearLayout>
-
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/imgProd">
 
                 <FrameLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="right"
-                    android:layout_marginLeft="5dp">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <LinearLayout
-                        android:id="@+id/ll2"
+                        android:id="@+id/ll1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="24dp"
-                        android:gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:minHeight="15dp"
                         android:orientation="vertical">
 
-                        <LinearLayout
-
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Valor "
-                                android:textColor="#000000" />
-
-                            <TextView
-                                android:id="@+id/tvValorProd"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="R$2,00"
-                                android:textColor="#000000" />
-
-                        </LinearLayout>
-
-                        <ImageButton
-                            android:id="@+id/button"
+                        <TextView
+                            android:id="@+id/tvNomeProduto"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="7dp"
-                            android:layout_weight="1"
-                            android:background="@android:color/transparent"
-                            android:clickable="true"
-                            android:src="@drawable/ic_keyboard_arrow_down_black_24dp" />
+                            android:text="Nome Produto"
+                            android:textColor="#000000" />
+
+                        <TextView
+                            android:id="@+id/tvInfoSimples"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Info oooasdsohdoasdfnnnad \n sjdlfkjdlflskfdjlzskdjflsdvzdfv \n sdjfoasdjfoiajsd"
+                            android:textColor="#000000"
+                            android:visibility="visible" />
+
+                        <TextView
+                            android:id="@+id/tvInfoFull"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:visibility="invisible" />
 
                     </LinearLayout>
+
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginLeft="7dp">
+
+                        <LinearLayout
+                            android:id="@+id/ll2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="24dp"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Valor "
+                                    android:textColor="#000000" />
+
+                                <TextView
+                                    android:id="@+id/tvValorProd"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="R$2,00"
+                                    android:textColor="#000000" />
+
+                            </LinearLayout>
+
+                            <ImageButton
+                                android:id="@+id/button"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="7dp"
+                                android:layout_weight="1"
+                                android:background="@android:color/transparent"
+                                android:clickable="true"
+                                android:src="@drawable/ic_keyboard_arrow_down_black_24dp" />
+
+                        </LinearLayout>
+                    </FrameLayout>
+
+
                 </FrameLayout>
 
+            </RelativeLayout>
 
-            </FrameLayout>
 
         </RelativeLayout>
 
-
-    </RelativeLayout>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginLeft="14dp"
-        android:layout_marginRight="14dp"
-        android:layout_marginBottom="0dp"
-        android:background="@color/lightgray" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginBottom="0dp"
+            android:background="@color/lightgray" />
+    </LinearLayout>
 </LinearLayout>

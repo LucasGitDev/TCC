@@ -6,6 +6,10 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import ga.appsmartwallet.smartwallet.Listas.BuyFragment;
+import ga.appsmartwallet.smartwallet.Listas.ConfigFragment;
+import ga.appsmartwallet.smartwallet.Listas.ListFragment;
+
 public class Principal extends AppCompatActivity {
 
 

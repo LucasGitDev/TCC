@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/secondaryLightColor"
-    tools:context=".ConfigFragment">
+    tools:context=".Listas.ConfigFragment">
 
     <LinearLayout
         android:id="@+id/ll"
@@ -45,6 +45,13 @@
                         android:padding="10dp"
                         android:src="@drawable/ic_attach_money_black_24dp" />
 
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="7dp"
+                        android:background="@color/lightgray" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -77,6 +84,13 @@
                         android:padding="10dp"
                         android:src="@drawable/ic_lightbulb_outline_black_24dp" />
 
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="7dp"
+                        android:background="@color/lightgray" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -118,6 +132,13 @@
                         android:padding="10dp"
                         android:src="@drawable/ic_control_point_black_24dp" />
 
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="7dp"
+                        android:background="@color/lightgray" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -150,6 +171,13 @@
                         android:padding="10dp"
                         android:src="@drawable/ic_attach_file_black_24dp" />
 
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="7dp"
+                        android:background="@color/lightgray" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -192,6 +220,13 @@
                         android:padding="10dp"
                         android:src="@drawable/ic_wifi_black_24dp" />
 
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="23dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="23dp"
+                        android:background="@color/lightgray" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

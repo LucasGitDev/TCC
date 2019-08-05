@@ -1,4 +1,4 @@
-package ga.appsmartwallet.smartwallet;
+package ga.appsmartwallet.smartwallet.Modelos;
 
 public class ModeloItem {
 

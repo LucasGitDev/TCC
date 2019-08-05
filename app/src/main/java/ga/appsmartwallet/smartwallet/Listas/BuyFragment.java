@@ -1,4 +1,4 @@
-package ga.appsmartwallet.smartwallet;
+package ga.appsmartwallet.smartwallet.Listas;
 
 
 import android.os.Bundle;
@@ -13,6 +13,10 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import java.util.ArrayList;
+
+import ga.appsmartwallet.smartwallet.Adapters.AdapterItem;
+import ga.appsmartwallet.smartwallet.Modelos.ModeloItem;
+import ga.appsmartwallet.smartwallet.R;
 
 public class BuyFragment extends Fragment {
 

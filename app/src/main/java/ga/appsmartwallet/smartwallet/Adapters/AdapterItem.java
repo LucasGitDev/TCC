@@ -1,4 +1,4 @@
-package ga.appsmartwallet.smartwallet;
+package ga.appsmartwallet.smartwallet.Adapters;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -9,6 +9,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+
+import ga.appsmartwallet.smartwallet.Modelos.ModeloItem;
+import ga.appsmartwallet.smartwallet.R;
 
 //
 //import com.bumptech.glide.Glide;

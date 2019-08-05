@@ -1,4 +1,4 @@
-package ga.appsmartwallet.smartwallet;
+package ga.appsmartwallet.smartwallet.Listas;
 
 
 import android.os.Bundle;
@@ -7,21 +7,21 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import ga.appsmartwallet.smartwallet.R;
 
 
-public class ListFragment extends Fragment {
+public class ConfigFragment extends Fragment {
 
-    public ListFragment() {
+    public ConfigFragment() {
         // Required empty public constructor
     }
-
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_buy, container, false);
+        return inflater.inflate(R.layout.fragment_config, container, false);
     }
 
 
