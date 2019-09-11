@@ -1,0 +1,4 @@
+#Tue Aug 27 16:38:35 BRT 2019
+base.0=/home/lucas/Documentos/SmartWallet2/app/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex

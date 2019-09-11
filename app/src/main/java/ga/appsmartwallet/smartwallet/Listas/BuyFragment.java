@@ -37,13 +37,10 @@ public class BuyFragment extends Fragment {
         view = inflater.inflate(R.layout.lista_content, container, false);
 
         recyclerView = (RecyclerView) view.findViewById(R.id.recyclerViewLista);
-
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getContext());
         recyclerView.setLayoutManager(layoutManager);
-
         adapterFeed = new AdapterItem(getContext(), modeloItemArrayList);
         recyclerView.setAdapter(adapterFeed);
-
 
         populateRecyclerView();
 
@@ -78,7 +75,6 @@ public class BuyFragment extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
-
         Log.i("String", "Resume");
     }
 

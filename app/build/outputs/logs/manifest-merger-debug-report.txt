@@ -1,0 +1,191 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:2:1-25:12
+MERGED from [com.android.support:design:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/9315e19d11cd9f8b9c31efe617bd518b/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/92f2760ba788cf192f4aba7698de7eff/AndroidManifest.xml:17:1-22:12
+MERGED from [com.bignerdranch.android:expandablerecyclerview:1.0.3] /home/lucas/.gradle/caches/transforms-2/files-2.1/ae946e2bce8c276eee5f13cf3e920d01/AndroidManifest.xml:2:1-16:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/lucas/.gradle/caches/transforms-2/files-2.1/c25deb90b0db16fad1086752fae12291/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/e86ff251f9cfa71be870ff830d72fed7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/a236f03c743460ced0d9444bd1a02a7f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/4e7911d906ee377b88b876c0d4662687/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/9641555a802be590682e7018f9ce5f16/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/8646dfc0e750155a455f843ef458859e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/32039e2dd67f7baeead7691707b8eece/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/9d6d498115e76186614117781d6bb5a0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/9335cd263c3192624613b6777298e693/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/cfa8f9cf28dd3e84177ffc47a61154c7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/11b5d5098f5f5c8a4a7fff42c5024035/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/abb6d603d1e56ebc6de06882170e8e42/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/561ba12be6be74f480dfcc52511f3e44/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/121c317bc1542801a6fd0d1c0cd40cb1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/4b6dcc1bf008b559e11afac4a6000089/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/eb1f067cd12f63fa5cd0c35367694145/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/5a4627e2efcf660523d7eeae0b29cc43/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/ae239b16f200adf0e29a92e49cb95b3c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/5c451bc084567d8a508d6a56f13c5406/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/407534b8e42e61db48bf443158a081cd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/b43b7b1d8f8403fcd1be55ec2d37aa1a/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/9d9b3159d3d1c8f5add9820e933b1b8e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/lucas/.gradle/caches/transforms-2/files-2.1/a6d9e7401a6aa74994c8684e3f5547b4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/b81e64f854d197644ced4a038630cb33/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/836f15ffcc3799fcfec775b6c4954f0e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/7d1bc400862ed5db4bc171e53f642060/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/66fa871ca20ad87be8ebdbb9563f5a9a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/lucas/.gradle/caches/transforms-2/files-2.1/fb5209c05547cb59ffe079a39418790c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/lucas/.gradle/caches/transforms-2/files-2.1/0ec51de9e010207ccc38d6f2e57798aa/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/lucas/.gradle/caches/transforms-2/files-2.1/877729323cbda71ed32216e298ec5563/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/lucas/.gradle/caches/transforms-2/files-2.1/d668b1a49e60cea261af69d6ad5ccdb3/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:2:1-25:12
+INJECTED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml
+		ADDED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml
+		ADDED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:2:1-25:12
+		INJECTED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:7:5-23:19
+MERGED from [com.android.support:design:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/9315e19d11cd9f8b9c31efe617bd518b/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/9315e19d11cd9f8b9c31efe617bd518b/AndroidManifest.xml:22:5-20
+MERGED from [com.bignerdranch.android:expandablerecyclerview:1.0.3] /home/lucas/.gradle/caches/transforms-2/files-2.1/ae946e2bce8c276eee5f13cf3e920d01/AndroidManifest.xml:11:5-14:19
+MERGED from [com.bignerdranch.android:expandablerecyclerview:1.0.3] /home/lucas/.gradle/caches/transforms-2/files-2.1/ae946e2bce8c276eee5f13cf3e920d01/AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/lucas/.gradle/caches/transforms-2/files-2.1/c25deb90b0db16fad1086752fae12291/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/lucas/.gradle/caches/transforms-2/files-2.1/c25deb90b0db16fad1086752fae12291/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/5c451bc084567d8a508d6a56f13c5406/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/5c451bc084567d8a508d6a56f13c5406/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/b43b7b1d8f8403fcd1be55ec2d37aa1a/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/b43b7b1d8f8403fcd1be55ec2d37aa1a/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/5c451bc084567d8a508d6a56f13c5406/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:11:9-66
+	android:icon
+		ADDED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:9:9-55
+	android:allowBackup
+		ADDED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:13:9-40
+activity#ga.appsmartwallet.smartwallet.AddLista
+ADDED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:14:9-55
+	android:name
+		ADDED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:14:19-43
+activity#ga.appsmartwallet.smartwallet.Principal
+ADDED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:15:9-47
+	android:name
+		ADDED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:15:19-44
+activity#ga.appsmartwallet.smartwallet.MainActivity
+ADDED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:16:9-22:20
+	android:name
+		ADDED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:16:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml:20:27-74
+uses-sdk
+INJECTED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml
+INJECTED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/9315e19d11cd9f8b9c31efe617bd518b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/9315e19d11cd9f8b9c31efe617bd518b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/92f2760ba788cf192f4aba7698de7eff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/92f2760ba788cf192f4aba7698de7eff/AndroidManifest.xml:20:5-44
+MERGED from [com.bignerdranch.android:expandablerecyclerview:1.0.3] /home/lucas/.gradle/caches/transforms-2/files-2.1/ae946e2bce8c276eee5f13cf3e920d01/AndroidManifest.xml:7:5-9:41
+MERGED from [com.bignerdranch.android:expandablerecyclerview:1.0.3] /home/lucas/.gradle/caches/transforms-2/files-2.1/ae946e2bce8c276eee5f13cf3e920d01/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/lucas/.gradle/caches/transforms-2/files-2.1/c25deb90b0db16fad1086752fae12291/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/lucas/.gradle/caches/transforms-2/files-2.1/c25deb90b0db16fad1086752fae12291/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/e86ff251f9cfa71be870ff830d72fed7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/e86ff251f9cfa71be870ff830d72fed7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/a236f03c743460ced0d9444bd1a02a7f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/a236f03c743460ced0d9444bd1a02a7f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/4e7911d906ee377b88b876c0d4662687/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/4e7911d906ee377b88b876c0d4662687/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/9641555a802be590682e7018f9ce5f16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/9641555a802be590682e7018f9ce5f16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/8646dfc0e750155a455f843ef458859e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/8646dfc0e750155a455f843ef458859e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/32039e2dd67f7baeead7691707b8eece/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/32039e2dd67f7baeead7691707b8eece/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/9d6d498115e76186614117781d6bb5a0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/9d6d498115e76186614117781d6bb5a0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/9335cd263c3192624613b6777298e693/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/9335cd263c3192624613b6777298e693/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/cfa8f9cf28dd3e84177ffc47a61154c7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/cfa8f9cf28dd3e84177ffc47a61154c7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/11b5d5098f5f5c8a4a7fff42c5024035/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/11b5d5098f5f5c8a4a7fff42c5024035/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/abb6d603d1e56ebc6de06882170e8e42/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/abb6d603d1e56ebc6de06882170e8e42/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/561ba12be6be74f480dfcc52511f3e44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/561ba12be6be74f480dfcc52511f3e44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/121c317bc1542801a6fd0d1c0cd40cb1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/121c317bc1542801a6fd0d1c0cd40cb1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/4b6dcc1bf008b559e11afac4a6000089/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/4b6dcc1bf008b559e11afac4a6000089/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/eb1f067cd12f63fa5cd0c35367694145/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/eb1f067cd12f63fa5cd0c35367694145/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/5a4627e2efcf660523d7eeae0b29cc43/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/5a4627e2efcf660523d7eeae0b29cc43/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/ae239b16f200adf0e29a92e49cb95b3c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/ae239b16f200adf0e29a92e49cb95b3c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/5c451bc084567d8a508d6a56f13c5406/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/5c451bc084567d8a508d6a56f13c5406/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/407534b8e42e61db48bf443158a081cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/407534b8e42e61db48bf443158a081cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/b43b7b1d8f8403fcd1be55ec2d37aa1a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/b43b7b1d8f8403fcd1be55ec2d37aa1a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/9d9b3159d3d1c8f5add9820e933b1b8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/9d9b3159d3d1c8f5add9820e933b1b8e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/lucas/.gradle/caches/transforms-2/files-2.1/a6d9e7401a6aa74994c8684e3f5547b4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/lucas/.gradle/caches/transforms-2/files-2.1/a6d9e7401a6aa74994c8684e3f5547b4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/b81e64f854d197644ced4a038630cb33/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/b81e64f854d197644ced4a038630cb33/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/836f15ffcc3799fcfec775b6c4954f0e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/836f15ffcc3799fcfec775b6c4954f0e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/7d1bc400862ed5db4bc171e53f642060/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/7d1bc400862ed5db4bc171e53f642060/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/66fa871ca20ad87be8ebdbb9563f5a9a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/lucas/.gradle/caches/transforms-2/files-2.1/66fa871ca20ad87be8ebdbb9563f5a9a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/lucas/.gradle/caches/transforms-2/files-2.1/fb5209c05547cb59ffe079a39418790c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/lucas/.gradle/caches/transforms-2/files-2.1/fb5209c05547cb59ffe079a39418790c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/lucas/.gradle/caches/transforms-2/files-2.1/0ec51de9e010207ccc38d6f2e57798aa/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/lucas/.gradle/caches/transforms-2/files-2.1/0ec51de9e010207ccc38d6f2e57798aa/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/lucas/.gradle/caches/transforms-2/files-2.1/877729323cbda71ed32216e298ec5563/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/lucas/.gradle/caches/transforms-2/files-2.1/877729323cbda71ed32216e298ec5563/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/lucas/.gradle/caches/transforms-2/files-2.1/d668b1a49e60cea261af69d6ad5ccdb3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/lucas/.gradle/caches/transforms-2/files-2.1/d668b1a49e60cea261af69d6ad5ccdb3/AndroidManifest.xml:20:5-44
+INJECTED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml
+INJECTED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml
+		ADDED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml
+		ADDED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lucas/Documentos/SmartWallet2/app/src/main/AndroidManifest.xml

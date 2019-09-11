@@ -1,10 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Listas.BuyFragment"
     android:background="@color/secondaryLightColor"
-    tools:context=".Listas.ListFragment">
+    tools:showIn="@layout/fragment_buy">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/secondaryLightColor">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <!--<LinearLayout-->
+        <!--android:layout_below="@+id/recyclerViewLista"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="bottom">-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="45dp"-->
+            <!--android:layout_marginBottom="1dp"-->
+            <!--android:layout_marginRight="35dp">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:gravity="end">-->
+
+                <!--<TextView-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="45dp"-->
+                    <!--android:fontFamily="sans-serif-medium"-->
+                    <!--android:text="Valor Total "-->
+                    <!--android:textColor="@color/colorPrimaryDark"-->
+                    <!--android:textSize="13sp" />-->
+                <!--<TextView-->
+                    <!--android:gravity="center"-->
+                    <!--android:minWidth="10dp"-->
+                    <!--android:maxWidth="30dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="45dp"-->
+                    <!--android:fontFamily="sans-serif-medium"-->
+                    <!--android:text=""-->
+                    <!--android:textColor="@color/colorPrimaryDark"-->
+                    <!--android:textSize="13sp" />-->
 
 
-</FrameLayout>
+
+            <!--</LinearLayout>-->
+
+
+        <!--</RelativeLayout>-->
+    <!--</LinearLayout>-->
+
+
+</RelativeLayout>
