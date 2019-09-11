@@ -1,4 +1,4 @@
-package ga.appsmartwallet.smartwallet;
+package ga.appsmartwallet.smartwallet.Adapters;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
