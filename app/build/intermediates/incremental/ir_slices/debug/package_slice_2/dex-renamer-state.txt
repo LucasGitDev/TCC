@@ -1,4 +1,0 @@
-#Tue Aug 27 16:00:21 BRT 2019
-base.0=/home/lucas/Documentos/SmartWallet2/app/build/intermediates/transforms/dexMerger/debug/2
-path.0=classes.dex
-renamed.0=classes.dex

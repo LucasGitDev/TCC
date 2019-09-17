@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "/home/lucas/Documentos/SmartWallet2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/home/lucas/Repositórios/01/SmartWallet/Aplicação Android/TCC/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/home/lucas/.gradle/caches/transforms-2/files-2.1/cfa8f9cf28dd3e84177ffc47a61154c7/res/values-v24/values-v24.xml",
+                    "source": "/home/lucas/.gradle/caches/transforms-2/files-2.1/1e33e08456d98544ba2fbb42ca4870bd/appcompat-v7-28.0.0/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                },
+                {
+                    "source": "/home/lucas/.gradle/caches/transforms-2/files-2.1/0ba480826205a07ce514f81474be35ae/support-media-compat-28.0.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -18,16 +28,6 @@
                         "startOffsets": "347,413,474,540",
                         "endColumns": "65,60,65,66",
                         "endOffsets": "408,469,535,602"
-                    }
-                },
-                {
-                    "source": "/home/lucas/.gradle/caches/transforms-2/files-2.1/92f2760ba788cf192f4aba7698de7eff/res/values-v24/values-v24.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,212",
-                        "endColumns": "156,134",
-                        "endOffsets": "207,342"
                     }
                 }
             ]

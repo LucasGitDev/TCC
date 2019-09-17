@@ -73,14 +73,14 @@ public class ListFragment extends Fragment {
         });
 
 //troca fragment
-        btnAdd.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                view = inflater.inflate(layout.fragment_list2, container, false);
-                Log.i("String", "Button Click");
-                onDestroy();
-            }
-        });
+//        btnAdd.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                view = inflater.inflate(layout.fragment_list2, container, false);
+//                Log.i("String", "Button Click");
+//                onDestroy();
+//            }
+//        });
 
 
 

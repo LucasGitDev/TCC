@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/lucas/Documentos/SmartWallet2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "/home/lucas/Repositórios/01/SmartWallet/Aplicação Android/TCC/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/home/lucas/.gradle/caches/transforms-2/files-2.1/92f2760ba788cf192f4aba7698de7eff/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "/home/lucas/.gradle/caches/transforms-2/files-2.1/1e33e08456d98544ba2fbb42ca4870bd/appcompat-v7-28.0.0/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
