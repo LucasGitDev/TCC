@@ -17,6 +17,9 @@ public class ModeloItem {
         this.foto = foto;
     }
 
+    public ModeloItem() {
+    }
+
     public int getFoto() {
         return foto;
     }

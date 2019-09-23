@@ -7,15 +7,30 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".Listas.BuyFragment"
     android:background="@color/secondaryLightColor"
-    tools:showIn="@layout/fragment_buy">
+    tools:showIn="@layout/fragment_buy"
+    android:orientation="vertical">
 
     <android.support.v7.widget.RecyclerView
+
         android:id="@+id/recyclerViewLista"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/secondaryLightColor">
 
     </android.support.v7.widget.RecyclerView>
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:text="aaaaaa"-->
+<!--        android:id="@+id/tvTeste"/>-->
+<!--    <TextView-->
+<!--        android:layout_marginTop="55dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:text="aaaaaa"-->
+<!--        android:id="@+id/tvTeste2"-->
+<!--        tools:ignore="UnknownId" />-->
 
     <!--<LinearLayout-->
         <!--android:layout_below="@+id/recyclerViewLista"-->
