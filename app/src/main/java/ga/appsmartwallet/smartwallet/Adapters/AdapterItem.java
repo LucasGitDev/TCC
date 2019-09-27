@@ -13,10 +13,6 @@ import java.util.ArrayList;
 import ga.appsmartwallet.smartwallet.Modelos.ModeloItem;
 import ga.appsmartwallet.smartwallet.R;
 
-//
-//import com.bumptech.glide.Glide;
-//import com.bumptech.glide.RequestManager;
-
 /**
  * Created by Teles
  */
@@ -26,13 +22,11 @@ public class AdapterItem extends RecyclerView.Adapter<AdapterItem.MyViewHolder> 
 
     Context context;
     ArrayList<ModeloItem> modelFeedArrayList = new ArrayList<>();
-//    RequestManager glide;
 
     public AdapterItem(Context context, ArrayList<ModeloItem> modelFeedArrayList) {
 
         this.context = context;
         this.modelFeedArrayList = modelFeedArrayList;
-//        glide = Glide.with(context);
 
     }
 
@@ -49,26 +43,10 @@ public class AdapterItem extends RecyclerView.Adapter<AdapterItem.MyViewHolder> 
     public void onBindViewHolder(MyViewHolder holder, int position) {
         final ModeloItem modeloItem = modelFeedArrayList.get(position);
 
-//        holder.tv_name.setText(modeloItem.get());
-//        holder..setText(modeloItem.getHora());
-//        holder.tv_likes.setText(String.valueOf(modeloItem.getLikes()));
-//        holder.tv_comments.setText(modeloItem.getComments() + " comments");
-//        holder.tv_status.setText(modeloItem.getSpotted());
-
         holder.tvNomeProd.setText(modeloItem.getNomeProd());
         holder.tvValorProd.setText("R$" + String.valueOf(modeloItem.getValorProd()));
         holder.tvInfoSimples.setText(modeloItem.getTextoSimples());
         holder.imgViewProd.setImageResource(modeloItem.getFoto());
-
-
-//        glide.load(modelFeed.getPropic()).into(holder.imgView_proPic);
-//
-//        if (modelFeed.getPostpic() == 0) {
-//            holder.imgView_postPic.setVisibility(View.GONE);
-//        } else {
-//            holder.imgView_postPic.setVisibility(View.VISIBLE);
-//            glide.load(modelFeed.getPostpic()).into(holder.imgView_postPic);
-//        }
     }
 
     @Override
